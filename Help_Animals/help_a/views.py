@@ -1,11 +1,10 @@
 
 from django.shortcuts import render
 
-# Create your views here.
-from django.http import HttpResponse
+
 
 def index(request):
-    return HttpResponse("Hallo главная стр")
+    return render(request, "help_a/index.html")
 
 def about(request):
-    return HttpResponse("О сайте")
+    return render(request, "help_a/about.html")
