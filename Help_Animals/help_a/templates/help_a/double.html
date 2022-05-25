@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'help_a/css/main.css' %}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="shortcut icon" href="{% static 'help_a/img/home_page_.jpg' %}" type="image/x-jpg"/>
 </head>
 <body>
 
@@ -19,7 +20,7 @@
         <h3>Навигация</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fas fa-home"></i>Главная</li></a>
-            <a href="{% url 'about' %}"><li><i class="fas fa-solid fa-paw"></i>О сайте</li></a>
+            <a href="{% url 'animals' %}"><li><i class="fas fa-solid fa-paw"></i>Питомцы</li></a>
             <a href="{% url 'transportation' %}"><li><i class="fas fa-solid fa-car"></i>Доставка</li></a>
             <a href="{% url 'connection' %}"><li><i class="fas fa-solid fa-phone-volume"></i>Контакты</li></a>
         </ul>

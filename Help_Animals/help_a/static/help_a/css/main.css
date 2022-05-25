@@ -53,5 +53,15 @@ main .features p{
     margin: 20px auto
     }
 
+main .articles {
+    max-width: 100px;
+    margin: 20px;
+    }
+
+main .articles img {
+    width: 200px;
+    height: 100px;
+    }
+
 
 

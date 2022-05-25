@@ -1,0 +1,18 @@
+{% extends "help_a/double.html" %}
+
+{% block title %}Питомцы{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Питомцы</h1>
+
+<!--    <button class="btn btn-danger">На главную страницу</button>-->
+    {% for i in animals %}
+        <div class="articles">
+            <h3>{{ i.title }}</h3>
+            <p>{{ i.content }}</p>
+            <img  src='{{i.photo.url}}'>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

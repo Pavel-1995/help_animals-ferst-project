@@ -11,8 +11,11 @@ class Animals(models.Model):
     published = models.BooleanField(default=True, verbose_name='Публикация')
     cat = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name='Категория')
 
+    def __str__(self):
+        return self.title
+
     class Meta:
-        verbose_name = 'Питомец'
+        verbose_name = 'Питомца'
         verbose_name_plural = 'Питомцы'
 
 class Category(models.Model):
