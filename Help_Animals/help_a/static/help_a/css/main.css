@@ -6,7 +6,7 @@ aside{
     background: #87CEEB;
     width: 15.5%;
     padding: 2.5%;
-    height: 100vh;
+    height: 300vh;
     color: red;
     border-right: 5px solid#
     }
@@ -31,7 +31,7 @@ aside ul li {
     transition: transform .6s ease;
 }
 
-aside ul li:hover, aside ul a:hover{
+aside ul li:hover, aside ul a:hover {
     color: white;
     text-decoration: none;
     transform: scale(1.05);
@@ -48,55 +48,97 @@ li button
     }
 
 main .features{
-    float: left;
+    float: right;
     margin-top: 30px;
     text-align: center;
     width: 75%;
     }
 
-main .features h1 {
+main .features h1{
     font-size: 50px;
+
+    max-width: 670px;
+
     }
 
 main .features p{
-    max-width: 100px;
+    max-width: 600px;
     margin: 20px auto
+    text-align: center;
     }
 
-main .articles {
+main .articles{
     max-width: 100px;
     margin: 20px;
     }
 
-main .articles img {
+main .articles img{
     width: 200px;
     height: 100px;
     }
+
 form{
     margin-left: 5%;
     width: 600px;
     margin-top: 5px;
-    text-align: center;
-    
+
   }
 
 .btn-success{
-    margin-left: 150px;
+    margin-left: 10px;
+
     }
 
 
 
+main .img_detail_view img{
+    width: 300px;
+    display:block;
+    margin:auto;
+    }
+main .img_detail_view h1{
+    text-align: center;
+    }
+main .img_detail_view p{
+    text-align: center;
+    }
+
+main .img_detail_view{
+    padding-top: 10%
+    }
 
 
 
-                                   
+aside{
+    position: fixed;
+}
+
+#container {
+  text-align: justify;
+  margin-right: 150px;
+}
+#container > div {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+#container:after {
+  content: "";
+  width: 75%;
+  display: inline-block;
+}
 
 
+main .features h1{
+    text-align: center;
+}
 
+.btn {
+    margin-right: 370px;
 
-
-
-
-
-
+    }
 

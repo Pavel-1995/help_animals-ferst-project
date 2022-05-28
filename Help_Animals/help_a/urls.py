@@ -12,5 +12,6 @@ urlpatterns = [
     path('transportation', views.transportation, name='transportation'),
     path('connection', views.connection, name='connection'),
     path('create', views.create, name='create'),
+    path('animals/<int:pk>/', views.AddDetailView.as_view(), name='animals-detail')
 
 ]

@@ -1,0 +1,13 @@
+{% extends "help_a/double.html" %}
+
+{% block title %}{{ animals_d.title }}{% endblock %}
+
+{% block content %}
+
+<div class="img_detail_view">
+    <h1>{{ animals_d.title }}</h1>
+    <p>{{ animals_d.context }}</p>
+    <img  src='{{ animals_d.photo.url }}'>
+    <p>{{ animals_d.time_create }}</p>
+</div>
+{% endblock %}
