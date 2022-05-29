@@ -6,8 +6,14 @@
 
 <div class="img_detail_view">
     <h1>{{ animals_d.title }}</h1>
-    <p>{{ animals_d.context }}</p>
+    <p>{{ animals_d.content }}</p>
     <img  src='{{ animals_d.photo.url }}'>
     <p>{{ animals_d.time_create }}</p>
+    <div class="button">
+          <a href="{% url 'animals-delete' animals_d.id %}" class="btb btb-del">Удалить</a>
+          <a href="{% url 'animals-update' animals_d.id %}" class="btb btb-add">Редактировать</a>
+    </div>
+
+
 </div>
 {% endblock %}

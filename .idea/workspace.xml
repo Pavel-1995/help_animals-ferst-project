@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935c349b-a4fc-4efa-903b-048f2236c455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/details_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/animals.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/animals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/details_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/views.py" afterDir="false" />
     </list>
@@ -42,7 +44,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/pavel/my_1_project"
+    "last_opened_file_path": "/home/pavel/my_1_project",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
   <component name="RecentsManager">

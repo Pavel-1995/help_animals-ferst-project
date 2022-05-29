@@ -12,6 +12,8 @@ urlpatterns = [
     path('transportation', views.transportation, name='transportation'),
     path('connection', views.connection, name='connection'),
     path('create', views.create, name='create'),
-    path('animals/<int:pk>/', views.AddDetailView.as_view(), name='animals-detail')
+    path('animals/<int:pk>/', views.AddDetailView.as_view(), name='animals-detail'),
+    path('animals/<int:pk>/update', views.AddUpdateView.as_view(), name='animals-update'),
+    path('animals/<int:pk>/delete', views.DeleteView.as_view(), name='animals-delete'),
 
 ]

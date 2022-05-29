@@ -14,9 +14,14 @@ class Animals(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return f"/animals/{self.id}"
+
     class Meta:
         verbose_name = 'Питомца'
         verbose_name_plural = 'Питомцы'
+
+
 
 class Category(models.Model):
     name = models.CharField(max_length=100, db_index=True, verbose_name='Категория')

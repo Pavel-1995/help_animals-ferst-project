@@ -1,0 +1,22 @@
+{% extends "help_a/double.html" %}
+
+{% block title %}Удаление объявления{% endblock %}
+
+{% block content %}
+  <div class="features">
+    <h1>Удаление объявления</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+    <button class="btn btn-success" type="submit">Удалить объявление</button>
+    </form>
+  </div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
