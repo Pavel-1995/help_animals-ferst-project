@@ -1,11 +1,12 @@
 {% extends "help_a/double.html" %}
-
-{% block title %}Доставка{% endblock %}
+{% load static %}
+{% block title %}Перевозка животных{% endblock %}
 
 {% block content %}
-<div class="features">
-    <h1>Доставка</h1>
-    <p>Текст</p>
-    <button class="btn btn-success">На глвную страницу</button>
+<div class="logistic">
+    <h1>Перевозка животных!</h1>
+    <p>Оказываем услуги по перевозке животных</p>
+    <img src="{% static 'help_a/img/car.jpg' %}"><br></br>
+    <a href="{% url 'home' %}" class="btn btn-success">На главную страницу</a>
 </div>
 {% endblock %}

@@ -1,11 +1,15 @@
 {% extends "help_a/double.html" %}
-
+{% load static %}
 {% block title %}Главная страница{% endblock %}
 
 {% block content %}
-<div class="features">
-    <h1>Главная страница</h1>
-    <p>Текст</p>
-    <button class="btn btn-warning">На главную страницу</button>
+<div class="home">
+    <h1>Help_Animals</h1>
+    <p>Рады помочь Вам разместить ваше объявление о вашем питомце!</p>
+    <p>Мы помогаем питомцам найти их новый дом</p>
+      <div class="home_page">
+        <img src="{% static 'help_a/img/home_page.jpg' %}"><br></br>
+        <a href="{% url 'animals' %}" class="btb.btb-animals_">Питомцы</a>
+      </div>
 </div>
 {% endblock %}

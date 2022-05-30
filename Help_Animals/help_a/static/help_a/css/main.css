@@ -161,9 +161,107 @@ a.btb.btb-del{
 
     }
 
-a.btb.btb-del:hover {
+.btb.btb-del:hover {
     transform: scale(1.5);
     background: #32CD32;
     color: ##FF0000;
     box-shadow: inset 0 0 0 3px ##FF0000;
+   }
+
+
+
+a.btb.btb-cal{
+    bottom: -4px;
+    position: relative;
+    margin-left: 30px;
+    color: #fff;
+    background: #7FFF00;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: transform .2s;
+    padding-right: 30px;
+    padding-left: 45px;
+    top: -17px;
+    }
+
+a.btb.btb-cal:hover {
+    transform: scale(1.2);
+    background: #32CD32;
+    color: ##FF0000;
+    box-shadow: inset 0 0 0 3px ##FF0000;
+   }
+
+
+
+main .logistic{
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+    width: 75%;
+    margin-right: 64px;
+    }
+
+main .logistic h1{
+    font-size: 50px;
+    max-width: 670px;
+    text-align: center;
+    }
+
+main .logistic p{
+    max-width: 600px;
+    margin: 20px auto
+    text-align: center;
+    }
+
+
+main .home_page img{
+    width: 900px;
+	height: 450px;
+	margin-left: -200px;
+    }
+
+
+main .home{
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+    width: 75%;
+    margin-top:-5px;
+    }
+
+main .home h1{
+    font-size: 50px;
+
+    max-width: 670px;
+
+    }
+
+main .home p{
+    max-width: 600px;
+    margin: 20px auto
+    text-align: center;
+    }
+
+
+a.btb\.btb-animals_{
+    bottom: -4px;
+    position: relative;
+    margin-left: -220px;
+    color: #fff;
+    background: #FF6347;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: transform .2s;
+    padding-right: 30px;
+    padding-left: 40px;
+    top: -5px;
+    }
+
+a.btb\.btb-animals_:hover {
+    transform: scale(1.2);
+    background: #FF0000;
+    color: ##FF0000;
+    box-shadow: inset 0 0 0 3px #FF0000;
    }
