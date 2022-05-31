@@ -1,4 +1,5 @@
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.views import LoginView
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 
@@ -9,10 +10,7 @@ from .models import Animals
 #
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.contrib.auth import authenticate, login
-
-
-
+from django.contrib.auth import authenticate, login, logout
 
 
 class AddDetailView(DetailView):
@@ -56,18 +54,28 @@ def create(request):
     return render(request, "help_a/create.html", {'form': form})
 
 
-def login(request):
-    return HttpResponse('Авторизация')
-
 
 class RegisterUser(CreateView):
     form_class = UserCreationForm
     template_name = "help_a/register.html"
     success_url = reverse_lazy('home')
 
+    def form_valid(self, form):
+        user = form.save()
+        login(self.request, user)
+        return redirect('home')
+    ##После регистрации сохраняет пользователя##
 
 
+#####
+class LoginUser(LoginView):
+    form_class = AuthenticationForm
+    template_name = 'help_a/login.html'
 
+    def get_success_url(self):
+        return reverse_lazy('home')
 
-###
+def logout_user(request):
+    logout(request)
+    return redirect('home')
 

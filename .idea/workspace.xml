@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935c349b-a4fc-4efa-903b-048f2236c455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/double.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/double.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" afterDir="false" />

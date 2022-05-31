@@ -24,8 +24,12 @@
             <a href="{% url 'transportation' %}"><li><i class="fas fa-solid fa-car"></i>Доставка</li></a>
             <a href="{% url 'connection' %}"><li><i class="fas fa-solid fa-phone-volume"></i>Контакты</li></a>
             <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить запись</button> </li></a>
-            <a href="{% url  'register' %}"><button class="button-register">Регистрация</button></a>
-            <a href="{% url 'login' %}"><button class="button-entrance">Войти</button></a>
+            {% if request.user.is_authenticated %}
+                <a href="{% url 'logout' %}"><button class="btn btn-danger">Выйти</a>
+            {% else %}
+                <a href="{% url  'register' %}"><button class="button-register">Регистрация</button></a>
+                <a href="{% url 'login' %}"><button class="button-entrance">Войти</button></a>
+            {% endif%}
         </ul>
     </aside>
     <main>

@@ -329,3 +329,12 @@ main form{
 
 
 ul.errorlist{color: red;}
+
+
+input.id_password
+{margin-left:20px}
+
+button.btn.btn-danger{
+    margin-top: 110px;
+
+    }

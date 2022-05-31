@@ -16,9 +16,9 @@ urlpatterns = [
     path('animals/<int:pk>/', views.AddDetailView.as_view(), name='animals-detail'),
     path('animals/<int:pk>/update', views.AddUpdateView.as_view(), name='animals-update'),
     path('animals/<int:pk>/delete', views.DeleteView.as_view(), name='animals-delete'),
-    #
     path('register/', views.RegisterUser.as_view(), name='register'),
-    path('login/', views.login, name='login')
+    path('login/', views.LoginUser.as_view(), name='login'),
+    path('logout/', views.logout_user, name='logout'),
 
 ]
 
