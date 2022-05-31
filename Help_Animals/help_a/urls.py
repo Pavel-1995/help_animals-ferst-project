@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from django.urls import path, include
 from  django.conf import settings
 from django.conf.urls.static import static
@@ -15,5 +16,10 @@ urlpatterns = [
     path('animals/<int:pk>/', views.AddDetailView.as_view(), name='animals-detail'),
     path('animals/<int:pk>/update', views.AddUpdateView.as_view(), name='animals-update'),
     path('animals/<int:pk>/delete', views.DeleteView.as_view(), name='animals-delete'),
+    #
+    path('register/', views.RegisterUser.as_view(), name='register'),
+    path('login/', views.login, name='login')
 
 ]
+
+

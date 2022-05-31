@@ -1,7 +1,18 @@
-from django.views.generic import DetailView, UpdateView, DeleteView
+from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
-from .models import Animals
+from django.urls import reverse_lazy
+
+from django.views.generic import DetailView, UpdateView, DeleteView, CreateView
+
 from .forms import AnimalsForm
+from .models import Animals
+#
+from django.http import HttpResponse
+from django.shortcuts import render
+from django.contrib.auth import authenticate, login
+
+
+
 
 
 class AddDetailView(DetailView):
@@ -43,4 +54,20 @@ def create(request):
     else:
         form = AnimalsForm()
     return render(request, "help_a/create.html", {'form': form})
+
+
+def login(request):
+    return HttpResponse('Авторизация')
+
+
+class RegisterUser(CreateView):
+    form_class = UserCreationForm
+    template_name = "help_a/register.html"
+    success_url = reverse_lazy('home')
+
+
+
+
+
+###
 

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935c349b-a4fc-4efa-903b-048f2236c455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/img/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/img/home_page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/connection.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/connection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/transportation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/transportation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/double.html" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/templates/help_a/double.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help_Animals/help_a/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Help_Animals/help_a/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/pavel/my_1_project/Help_Animals/help_a/static/help_a/img",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pavel/pythonProject1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Help_Animals/help_a/static/help_a/img" />
